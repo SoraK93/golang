@@ -9,7 +9,9 @@ func Conversion() {
 	speed := 100
 	force := 2.5
 
-	speed = speed * int(force)
+	motion := speed * int(force)
+	fmt.Println(motion)
 
-	fmt.Println(speed)
+	motion = int(float64(speed) * force)
+	fmt.Println(motion)
 }

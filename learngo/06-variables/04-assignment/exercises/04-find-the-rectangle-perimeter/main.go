@@ -30,15 +30,19 @@ package main
 //  https://www.mathsisfun.com/area.html
 // ---------------------------------------------------------
 
+import "fmt"
+
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// var (
-	// 	perimeter        int
-	// 	width, height = 5, 6
-	// )
+	var (
+		perimeter        int
+		width, height = 5, 6
+	)
 
 	// USE THE VARIABLES ABOVE WHEN CALCULATING YOUR RESULT
+	perimeter = 2 * (width + height)
 
 	// ADD YOUR CODE BELOW
+	fmt.Println(perimeter)
 }

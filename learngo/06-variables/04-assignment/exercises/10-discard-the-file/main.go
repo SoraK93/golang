@@ -22,8 +22,15 @@ package main
 //  secret/
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+	"path"
+)
+
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// ? ?= path.Split("secret/file.txt")
+	filePath, _ := path.Split("secret/file.txt")
+
+	fmt.Println(filePath)
 }

@@ -33,8 +33,10 @@ func main() {
 	n := 0.
 
 	// ADD YOUR CODE BELOW
+	pi := 3.14
+	num := 2
 
-	// ?
+	n = pi * float64(num)
 
 	fmt.Println(n)
 }

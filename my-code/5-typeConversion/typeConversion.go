@@ -2,7 +2,7 @@ package typeconversion
 
 import "fmt"
 // Type Conversion: Convert a value to another type.
-// type(value): name of the time. changes the value to given type name
+// type(value): name of the type. changes the value to given type name
 // We cannot use different types of values together
 
 func Conversion() {

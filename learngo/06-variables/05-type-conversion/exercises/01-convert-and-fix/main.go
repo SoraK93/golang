@@ -17,7 +17,9 @@ package main
 //  15.5
 // ---------------------------------------------------------
 
+import "fmt"
+
 func main() {
-	// a, b := 10, 5.5
-	// fmt.Println(a + b)
+	a, b := 10, 5.5
+	fmt.Println(float64(a) + b)
 }

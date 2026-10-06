@@ -1,8 +1,21 @@
 package main
 
 func main() {
-	Variable()
-	PathSeparator()
+	// Variable initialization, declaration, and assignment
+	// Variable()
+	
+	// Learn about path.Split()
+	// PathSeparator()
+	
+	// Different types of variable declaration
 	// Declaration()
-	ConvertType()
+	
+	// Converting value to different type
+	// ConvertType()
+
+	// Shows how os.Args() functions when input is provided in the form of command-line argument
+	// TerminalInput()
+
+	// Tips on how to name things in golang
+	NamingThings()
 }
